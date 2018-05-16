@@ -7,6 +7,7 @@
 1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/pizzeria.css">
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
     <title>Pizzeria</title>
 </head>
 
@@ -66,6 +67,17 @@
             <a href="#">Nous contacter</a>
         </p>
     </footer>
+
+    <script>
+        $("nav a").on("click", function () {
+            if ($(this).parent().hasClass("clicked")) {
+                $(this).parent().removeClass("clicked");
+            }
+            else {
+                $(this).parent().addClass("clicked");
+            }
+        });
+    </script>
 </body>
 
 </html>

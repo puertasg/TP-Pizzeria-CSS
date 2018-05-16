@@ -24,7 +24,7 @@ nav li
     padding:10px;
 }
 
-nav li:hover, nav li:active
+nav li:hover, .clicked
 {
     background-color: #009900;
 }
