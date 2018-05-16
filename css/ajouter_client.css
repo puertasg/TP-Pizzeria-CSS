@@ -1,0 +1,25 @@
+a
+{
+    color: #96CA2D;
+}
+
+.wrapper-input
+{
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.wrapper-input input
+{
+    float: right;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.wrapper-input input[type="submit"]
+{
+    background-color: red;
+    color:white;
+}
