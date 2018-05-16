@@ -9,39 +9,42 @@
 </head>
 
 <body>
-	<h1>Gestion des clients</h1>
+	<div class="container">
+		<h1>Gestion des clients</h1>
 
-	<h2>Création d'un client</h2>
-	<a href="./pizzeria.html">
-		<< Retour à la liste</a>
+		<h2>Création d'un client</h2>
+		<a href="./pizzeria.html">
+			<< Retour à la liste</a>
 
-			<form action="./inserts/insert_client.php" method="POST">
+				<form action="./inserts/insert_client.php" method="POST">
 
-				<div class="wrapper-input">
-					<label for="input_nom">Nom </label>
-					<input type="text" id="input_nom" name="nom" align="right" placeholder="Nom" required />
-				</div>
+					<div class="wrapper-input">
+						<label for="input_nom">Nom </label>
+						<input type="text" id="input_nom" name="nom" align="right" placeholder="Nom" required />
+					</div>
 
-				<div class="wrapper-input">
-					<label for="input_prenom">Prénom </label>
-					<input type="text" id="input_prenom" name="prenom" placeholder="Prénom" required />
-				</div>
+					<div class="wrapper-input">
+						<label for="input_prenom">Prénom </label>
+						<input type="text" id="input_prenom" name="prenom" placeholder="Prénom" required />
+					</div>
 
-				<div class="wrapper-input">
-					<label for="input_ville">Ville </label>
-					<input type="text" id="input_ville" name="ville" placeholder="Ville" required />
-				</div>
+					<div class="wrapper-input">
+						<label for="input_ville">Ville </label>
+						<input type="text" id="input_ville" name="ville" placeholder="Ville" required />
+					</div>
 
-				<div class="wrapper-input">
-					<label for="input_age">Age </label>
-					<input type="text" id="input_age" name="age" placeholder="Age" required />
-				</div>
+					<div class="wrapper-input">
+						<label for="input_age">Age </label>
+						<input type="text" id="input_age" name="age" placeholder="Age" required />
+					</div>
 
-				<div class="wrapper-input">
-					<input type="submit" value="Ajouter" />
-				</div>
+					<div class="wrapper-input">
+						<input type="submit" value="Ajouter" />
+					</div>
 
-			</form>
+				</form>
+	</div>
+
 </body>
 
 </html>

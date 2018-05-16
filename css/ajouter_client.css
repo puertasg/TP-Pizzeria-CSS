@@ -3,6 +3,12 @@ a
     color: #96CA2D;
 }
 
+.container
+{
+    border: 1px gray solid;
+    padding: 15px;
+}
+
 .wrapper-input
 {
     overflow: hidden;
